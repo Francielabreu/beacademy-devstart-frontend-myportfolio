@@ -1,3 +1,4 @@
+/*RESET*/
 * {
     padding: 0;
     margin: 0;
@@ -28,14 +29,16 @@ header nav{
     justify-content: space-between;
 }
 
+/*MENU INICIAL*/
+
 .logo {
     text-decoration: none;
     font-size: 2rem;
-    color: #FAFAFA;
+    background-color: #3339ff;
     outline: none;
 }
 
-.nav-menu{
+.menu{
     list-style: none;
 }
 
@@ -58,6 +61,117 @@ header nav{
 }
 
 .menu li a:hover{
-    border-bottom: 1px solid #008FFF;
+    border-bottom: 1px solid #3339ff;
     color: #FAFAFA;
+}
+
+/*CORPO DO PORTFOLIO*/
+
+.background-image {
+    background: url(../img/pc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+  }
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+ .container .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 59.2rem;
+    margin-top: 10.5rem;
+    padding-bottom: 4rem;
+                     
+  }
+  
+  .container .title h1 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 5.7rem;
+    line-height: 7.7rem;
+    text-align: center;
+    color: #FFF;
+  }
+  
+.container .title h1 span {
+    color: #3339ff;
+  }
+  
+.container .title h2 {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 3.2rem;
+  }
+  
+  .container .title p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    text-align: center;
+    color: #FFF;
+  }
+  
+/* CHAMADA DO CURRICULO*/
+
+.botoes-home{
+    /*margin-top:3rem;*/
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-contato {
+    text-decoration: none;
+    color: white;
+    background-color: #171717;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid white;
+    text-transform: uppercase;
+
+}
+.link-contato:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.curriculo {
+    text-decoration: none;
+    color: #008FFF ;
+    background-color: #171717;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #008FFF;
+    text-transform: uppercase;
+}
+.curriculo:hover{
+    color: black;
+    background-color:#333aef;
+    transition: 0.5s;
 }
