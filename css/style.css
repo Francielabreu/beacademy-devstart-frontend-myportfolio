@@ -178,6 +178,65 @@ header nav {
     transition: 0.5s;
 }
 
+/*SOBRE MIM*/
+.titulo-sobre {
+    color: #008FFF;
+    text-align: center;
+    font-size: 50px;
+    background-color: #191919;
+    display: flex;
+    padding-top: 70px;
+
+
+}
+
+.sobre {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px 20px;
+    background-color: #191919;
+    gap: 60px;
+}
+
+.sobre img {
+    padding-bottom: 80px;
+    margin-right: 30px;
+    border-radius: 0.6rem;
+    padding-top: 2.7rem;
+    
+}
+
+.sobre-mim {
+    max-width: 600px;
+    padding: 70px 20px;
+
+}
+
+.sobre-mim h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 3.3rem;
+    color: rgb(112, 240, 57);
+    font-weight: 600;
+    line-height: 1.6rem;
+    text-align: center;
+    margin-bottom: 3.2rem;
+    padding-top: 2.3rem;
+}
+
+.sobre-mim p {
+    font-family: "Inter", sans-serif;
+    color: #b6aeae;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    width: 700px;
+    
+}
+.sobre-mim p span {
+    color: #008FFF;
+    font-size: 23px;
+}
+
 /*CORPO DO PORTFOLIO*/
 .s-success {
     padding-top: 9.7rem;
@@ -199,19 +258,19 @@ header nav {
 
 .s-success .content .cards {
     display: flex;
-   
-  
+
+
 }
 
 .s-success .content .cards .card {
     width: 100%;
-  max-width: 19rem;
-  height: 27.2rem;
-  background-color: #FFF;
-  border-radius: 4px;
-  margin-right: 3.3rem;
-  cursor: pointer;
-  transition: all 0.2s;
+    max-width: 19rem;
+    height: 27.2rem;
+    background-color: #FFF;
+    border-radius: 4px;
+    margin-right: 3.3rem;
+    cursor: pointer;
+    transition: all 0.2s;
 }
 
 .s-success .content .cards .card:hover {
@@ -269,4 +328,5 @@ h2 span {
     font-size: 1.2rem;
     font-weight: 300;
 }
+
 
