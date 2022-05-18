@@ -6,12 +6,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
-   scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #171717;
+    background-color: #030303;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     background-color: #171717;
 }
 
-header nav{
+header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +38,7 @@ header nav{
     outline: none;
 }
 
-.menu{
+.menu {
     list-style: none;
 }
 
@@ -46,21 +46,21 @@ header nav{
     display: none;
 }*/
 
-.menu li{
+.menu li {
     display: inline-block;
     margin-right: 25px;
 }
 
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 1rem;
     padding-bottom: 10px;
-    
+
 }
 
-.menu li a:hover{
+.menu li a:hover {
     border-bottom: 1px solid #3339ff;
     color: #FAFAFA;
 }
@@ -72,62 +72,62 @@ header nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
 
-
-  }
-  
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-  }
-  
- .container .title {
+    padding-bottom: 4rem;
+}
+
+
+.container .title {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 59.2rem;
+    max-width: 43.2rem;
     margin-top: 10.5rem;
     padding-bottom: 4rem;
-                     
-  }
-  
-  .container .title h1 {
+
+}
+
+.container .title h1 {
     font-family: "Inter";
     font-weight: 700;
-    font-size: 5.7rem;
+    font-size: 3.8rem;
     line-height: 7.7rem;
     text-align: center;
     color: #FFF;
-  }
-  
+}
+
 .container .title h1 span {
     color: #3339ff;
-  }
-  
+    font-size: 5rem;
+}
+
 .container .title h2 {
     font-weight: 400;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     line-height: 3.6rem;
     text-align: center;
     color: #FFF;
     margin-bottom: 3.2rem;
-  }
-  
-  .container .title p {
+}
+
+.container .title p {
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     line-height: 2.7rem;
     text-align: center;
     color: #FFF;
-  }
-  
+}
+
 /* CHAMADA DO CURRICULO*/
 
-.botoes-home{
+.botoes-home {
     /*margin-top:3rem;*/
     display: flex;
     align-items: center;
@@ -150,7 +150,8 @@ header nav{
     text-transform: uppercase;
 
 }
-.link-contato:hover{
+
+.link-contato:hover {
     color: black;
     background-color: white;
     transition: 0.5s;
@@ -158,7 +159,7 @@ header nav{
 
 .curriculo {
     text-decoration: none;
-    color: #008FFF ;
+    color: #008FFF;
     background-color: #171717;
     height: 50px;
     width: 150px;
@@ -170,8 +171,102 @@ header nav{
     border: 1px solid #008FFF;
     text-transform: uppercase;
 }
-.curriculo:hover{
+
+.curriculo:hover {
     color: black;
-    background-color:#333aef;
+    background-color: #333aef;
     transition: 0.5s;
 }
+
+/*CORPO DO PORTFOLIO*/
+.s-success {
+    padding-top: 9.7rem;
+    padding-bottom: 4rem;
+    margin: 0 auto;
+    padding-left: 2rem;
+    background-color: rgb(49, 49, 49);
+}
+
+.s-success .content {
+    display: flex;
+    align-items: center;
+    gap: 4.4rem;
+}
+
+.s-success .content .title-success h2 span {
+    font-family: "Inter", sans-serif;
+}
+
+.s-success .content .cards {
+    display: flex;
+   
+  
+}
+
+.s-success .content .cards .card {
+    width: 100%;
+  max-width: 19rem;
+  height: 27.2rem;
+  background-color: #FFF;
+  border-radius: 4px;
+  margin-right: 3.3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.s-success .content .cards .card:hover {
+    filter: brightness(90%);
+}
+
+.s-success .content .cards .card.active {
+    background-color: royalblue;
+}
+
+.s-success .container .cards .card:last-child {
+    margin-right: 0;
+}
+
+.s-success .content .cards .card .card-title {
+    margin: 5rem 0;
+    padding-right: 14.5rem;
+    padding-left: 1.4rem;
+}
+
+.s-success .container .cards .card .card-info {
+    padding-left: 1.4rem;
+}
+
+.s-success .content .cards .card .card-title h3 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 7.7rem;
+    margin-bottom: 5.5rem;
+}
+
+.s-success .content .cards .card .card-info p {
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 2.8rem;
+    line-height: 3.9rem;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 5.3rem;
+    line-height: 7.7rem;
+    color: rgb(112, 240, 57);
+}
+
+h2 span {
+    color: rgb(30, 128, 248);
+}
+
+.tag {
+    border-radius: 5rem;
+    padding: 0.6rem 2.7rem;
+    background-color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
