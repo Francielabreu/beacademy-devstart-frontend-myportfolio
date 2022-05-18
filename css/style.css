@@ -34,7 +34,7 @@ header nav {
 .logo {
     text-decoration: none;
     font-size: 2rem;
-    background-color: #3339ff;
+
     outline: none;
 }
 
@@ -204,7 +204,7 @@ header nav {
     margin-right: 30px;
     border-radius: 0.6rem;
     padding-top: 2.7rem;
-    
+
 }
 
 .sobre-mim {
@@ -230,12 +230,26 @@ header nav {
     font-size: 1.2rem;
     line-height: 1.6rem;
     width: 700px;
-    
+
 }
+
 .sobre-mim p span {
     color: #008FFF;
     font-size: 23px;
 }
+
+
+.stack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-top: 1rem;
+  }
+  .stack img:hover{
+    transform: translateY(-2%);
+    
+  }
 
 /*CORPO DO PORTFOLIO*/
 .s-success {
@@ -330,3 +344,87 @@ h2 span {
 }
 
 
+/*PROJETOS*/
+
+.p-container {
+    padding: 1.2rem 0;
+    margin-bottom: 8rem;
+}
+.p-content {
+    display: flex;
+    flex-direction: column;
+ }
+.p-title {
+    margin-bottom: 3.3rem;
+  }
+
+  .p-title h2{
+    font-family: "Inter", sans-serif;
+    font-size: 3.5rem;
+    color: rgb(112, 240, 57);
+    font-weight: 600;
+    line-height: 1.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 4.2rem;
+   
+  }
+  .cases {
+    display: flex;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .cases img{
+      
+      width: 30rem;
+     padding: 0.2rem;
+
+     border-radius: 0.4rem;
+    cursor: pointer;
+    transition: all 0.2s;
+
+  }
+  .cases .case:nth-child(2) {
+    margin-top: -1.2rem;
+  }
+  .cases img:hover {
+    transform: translateY(-2%);
+  }
+  
+
+
+
+
+  /*FOOTER*/
+  footer {
+    background-color: rgb(24, 24, 24);
+  }
+  
+.f-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ .f-container .copy {
+    padding: 2.2rem 0;
+    text-align: center;
+  }
+  
+  .f-container .copy {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+  .f-container .copy a{
+      text-decoration: none;
+     
+  }
+
+  
+  
