@@ -394,6 +394,92 @@ h2 span {
   .cases img:hover {
     transform: translateY(-2%);
   }
+
+
+/*CONTATO*/
+
+.contato{
+    background-color: #171717;
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 70px 60px 0px;
+}
+
+.box-contato{
+    margin-left: 17rem;
+    padding-top: 2.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato h2{
+    font-size: 50px;
+    color: #FAFAFA;
+    margin: 0;
+    line-height: 3.6rem;
+    padding-top: 1rem;
+
+
+}
+
+.contacts-link{
+    display: flex;
+    gap: 30px;
+    padding-left: 1rem;
+}
+
+.contacts-link img{
+    width: 25px;
+}
+
+form{
+    height: 390px;
+    width: 390px;
+    padding: 20px;
+    margin-right: 100px;
+
+}
+
+form input{
+    color: #FAFAFA;
+    display: block;
+    width: 365px;
+    height: 46px;
+    border: none;
+    border-radius: 6px;
+    background-color: #343434;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+form textarea {
+    background-color: #343434;
+    width: 365px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px 0px 0px 10px;
+    resize: none;
+    color: #FAFAFA;
+    margin-bottom: 30px;
+}
+
+button{
+    width: 215px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #008FFF;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+  
+
+
   
 
 
