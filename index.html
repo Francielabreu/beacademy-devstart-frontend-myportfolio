@@ -13,7 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700;800;900&family=Poppins:wght@400;700&display=swap"
         rel="stylesheet" />
-        <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/responsivo.css">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Franciel Abreu | PayLivre</title>
@@ -22,14 +22,15 @@
 <body>
 
     <!--MENU-->
-    <header>
+    <header id="home">
         <nav>
             <div class="logo">
-                <img src="img/logo-branca.svg" alt="logo-paylivre" />
+                <a href="#"><img src="img/logo-branca.svg" alt="logo-paylivre" /></a>
             </div>
 
             <ul class="menu">
-                <li><a href="#about">QUEM SOU</a></li>
+                <li><a href="#home"></a></li>
+                <li><a href="#sobre">QUEM SOU</a></li>
                 <li><a href="#cases">CASES</a></li>
                 <li><a href="#stack">STACK</a></li>
                 <li><a href="#contact">CONTATO</a></li>
@@ -52,12 +53,13 @@
 
             <div class="botoes-home">
                 <a class="link-contato" href="#contato">Faça um orçamento</a>
-                <a class="curriculo" href="#" download="Currículo de Franciel">curriculo</a>
+                <a class="curriculo" href="#" download="Currículo de Franciel">currículo</a>
             </div>
         </div>
 
         <!--SOBRE MIM-->
-        <section class="sobre">
+        <section class="sobre" id="sobre">
+
 
             <img class="minha-foto" src="img/1652835024635.jfif" height="400px" alt="">
 
@@ -65,8 +67,11 @@
                 <h2>QUEM SOU<span>.</span></h2>
                 <p>
                     Formado em Sistema de Informação ,Possuo Habilidades em Desenvolvimento de sistemas Web
-                    ultilizando as tecnologias mais recente no mercado, onde procuro oportunidade de trabalhar
-                    e desenvolver minhas habilidades na área de desenvolvimento e implantação de Software.
+                    ultilizando as tecnologias mais recente no mercado, Dizem que sou um profissional multiskill, mais
+                    prefiro dizer que gosto de trabalhar com pessoas e processos.Não gosto de medir esfoços para
+                    entregar
+                    minhas metas individuais ou da minha equipe, seja para oque for, e a hora que for, sempre estou
+                    presente.
                 </p>
 
                 <div class="stack">
@@ -84,7 +89,7 @@
         </section>
 
         <!--Corpo-->
-        <section class="s-success">
+        <section class="s-success" id="stack">
             <div class="content">
                 <div class="title-success">
                     <span class="tag">#veemcompai🔥</span>
@@ -130,7 +135,7 @@
             </div>
         </section>
 
-        <section class="p-container">
+        <section class="p-container" id="cases">
             <div class="p-content">
                 <div class="p-title">
                     <h2>CASES<span>.</span></h2>
@@ -150,22 +155,22 @@
         </section>
 
         <!--CONTATO-->
-        <section id="contatos" class="contato">
+        <section class="contato" id="contact">
             <div class="box-contato">
                 <h2>ENTRE EM <br>CONTATO<span>.</span></h2>
                 <div class="contacts-link">
-                    <a href="#" target="_blank">
+                    <a href="https://github.com/Francielabreu" target="_blank">
                         <img src="img/icon-github.svg" alt="github">
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="https://www.linkedin.com/in/franciel-abreu-58797b108/" target="_blank">
                         <img src="img/icon-linkedin.svg" alt="linkedin">
                     </a>
                     <a href="#" target="_blank">
                         <img src="img/icon-instagram.svg" alt="instagram">
                     </a>
-                    
+
                 </div>
-            
+
             </div>
             <form class="form" action="#" method="POST">
                 <label>
@@ -181,7 +186,7 @@
                 <button type="submit">Enviar</button>
             </form>
         </section>
-    
+
 
 
 
